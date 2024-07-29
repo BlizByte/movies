@@ -1,0 +1,46 @@
+.hero {
+    max-width: var(--ukuran-container);
+    margin: auto;
+    padding: 6rem 1.5rem;
+    box-sizing: border-box;
+}
+
+.hero-container {
+    width: 50%;
+}
+
+.hero-container h1 {
+    color: var(--warna-putih);
+    font-size: var(--ukuran-judul);
+}
+
+.input-search {
+    margin-top: 40px;
+    display: flex;
+    column-gap: 10px;
+}
+
+.input-search input {
+    width: 70%;
+    border: none;
+    border-radius: 7px;
+    font-size: var(--ukuran-body);
+    padding: 10px 15px;
+    box-sizing: border-box;
+}
+
+.input-search button {
+    border: none;
+    background-color: var(--warna-ungu);   
+    color: var(--warna-putih);
+    font-size: var(--ukuran-body);
+    padding: 10px 15px;
+    border-radius: 7px;
+    box-sizing: border-box;
+}
+
+@media (max-width: 768px) {
+    .hero-container {
+        width: 100%;
+    }
+}

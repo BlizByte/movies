@@ -14,7 +14,7 @@ nav {
 }
 
 .navbar-logo h1 {
-    font-size: 32px;
+    font-size: var(--ukuran-heading);
     color: var(--warna-putih);
 }
 
@@ -24,6 +24,12 @@ nav {
 }
 
 .navbar-link a {
-    font-size: 15px;
+    font-size: var(--ukuran-body);
     color: var(--warna-putih);
+}
+
+@media (max-width: 768px) {
+    nav {
+        display: none;
+    }
 }
