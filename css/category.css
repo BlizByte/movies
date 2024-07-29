@@ -1,0 +1,34 @@
+.filter {
+    max-width: var(--ukuran-container);
+    margin: auto;
+    padding: 2rem 0;
+    box-sizing: border-box;
+}
+
+.filter-container {
+
+}
+
+.input-filter {
+    display: flex;
+}
+
+.input-filter select {
+    background-color: var(--warna-putih);
+    border: none;
+    width: 100%;
+    border-radius: 7px;
+    font-size: var(--ukuran-body);
+    padding: 10px 15px;
+    box-sizing: border-box;
+}
+
+.input-filter button {
+    border: none;
+    background-color: var(--warna-ungu);   
+    color: var(--warna-putih);
+    font-size: var(--ukuran-body);
+    padding: 10px 15px;
+    border-radius: 7px;
+    box-sizing: border-box;
+}
