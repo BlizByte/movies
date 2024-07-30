@@ -29,7 +29,7 @@ nav {
 }
 
 @media (max-width: 768px) {
-    nav {
-        display: none;
+    .navbar-link {
+        column-gap: 20px;
     }
 }

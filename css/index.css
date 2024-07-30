@@ -3,6 +3,8 @@
 @import "popular.css";
 @import "category.css";
 @import "movies.css";
+@import "overlay.css";
+@import "overview.css";
 
 :root {
     --warna-hitam: #000;
